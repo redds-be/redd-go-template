@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import "log"
+
+func helloWorld() string {
+	// Return a "Hello, World!" message
+	return "Hello, World!"
+}
 
 func main() {
-	fmt.Println("Hello, World!")
+	// Print the "Hello, World!" message
+	log.Println(helloWorld())
 }

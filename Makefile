@@ -1,23 +1,28 @@
+GOFILES = $(shell find . -type f -name '*.go' -not -path "./vendor/*")
+
 all: compile
 
-check: fmt lint mod vet
+prep: fmt mod vet lint test
+
+compile: clean
+	@mkdir -p build/
+	@go build -o build/
 
 fmt:
-	go fmt ./...
-
-lint:
-	golangci-lint run ./...
-
-vet:
-	go vet
+	golines --max-len=120 --base-formatter=gofumpt -w $(GOFILES)
 
 mod:
 	go mod vendor
 	go mod tidy
 
-compile:
-	mkdir -p build/
-	go build -o build/
+vet:
+	go vet
 
-lintall:
-	golangci-lint run --enable-all ./...
+lint:
+	golangci-lint run --enable-all --fix ./...
+
+test:
+	go test .
+
+clean:
+	@rm -rf build/
