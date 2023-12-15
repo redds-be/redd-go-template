@@ -61,7 +61,7 @@ A template for my go projects. It contains everything I need to start a new Go p
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Just it:
+Just run it:
 
 ```console
 go run main.go
