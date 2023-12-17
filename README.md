@@ -64,13 +64,13 @@ A template for my go projects. It contains everything I need to start a new Go p
 Just run it:
 
 ```console
-go run main.go
+user@host:~$ go run main.go
 ```
 
 Or compile and run it:
 
 ```console
-go build && ./redd-go-template
+user@host:~$ go build && ./redd-go-template
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
