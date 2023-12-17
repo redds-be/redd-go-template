@@ -25,6 +25,8 @@
 <!-- PROJECT SHIELDS -->
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/redds-be/redd-go-template/golangci-lint.yml?label=Golangci-lint)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/redds-be/redd-go-template/gotest.yml?label=Go%20test)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/redds-be/redd-go-template/gobuild.yml?label=Go%20build)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/redds-be/redd-go-template/docker-build-test.yml?label=Docker%20build)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/redds-be/redd-go-template)
 ![GitHub issues](https://img.shields.io/github/issues/redds-be/redd-go-template)
 ![GitHub License](https://img.shields.io/github/license/redds-be/redd-go-template)
