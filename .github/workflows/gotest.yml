@@ -17,4 +17,4 @@ jobs:
           cache: false
       - name: Test the project
         run: |
-          go test
+          go test ./...

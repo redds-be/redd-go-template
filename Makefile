@@ -16,13 +16,13 @@ mod:
 	go mod tidy
 
 vet:
-	go vet
+	go vet ./...
 
 lint:
 	golangci-lint run --enable-all --fix ./...
 
 test:
-	go test .
+	go test ./...
 
 clean:
 	@rm -rf build/

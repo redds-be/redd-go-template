@@ -38,7 +38,13 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#features">Features</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+        <a href="#usage">Usage</a>
+        <ul>
+            <li><a href="#source">Source</a></li>
+            <li><a href="#docker">Docker</a></li>
+        </ul>
+    </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -52,28 +58,38 @@
 
 A template for my go projects. It contains everything I need to start a new Go project.
 
+This template (helloworld) is an example of a [hexagonal architecture](https://medium.com/@matiasvarela/hexagonal-architecture-in-go-cfd4e436faa3) implementation.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
 
 - A `Hello, World!` message.
+- HTTP server to serve the `Hello, World!` at "/" endpoint
+- sqlite database to keep track of the history (date+helloworld)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+### Source
+
 Just run it:
 
 ```console
-user@host:~$ go run main.go
+user@host:~$ go run cmd/main.go
 ```
 
 Or compile and run it:
 
 ```console
-user@host:~$ go build && ./redd-go-template
+user@host:~$ go build -o helloworld cmd/main.go && ./helloworld
 ```
+
+### Docker
+
+See [docker instruction](docker/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
