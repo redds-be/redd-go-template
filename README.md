@@ -89,7 +89,7 @@ user@host:~$ go build -o helloworld cmd/main.go && ./helloworld
 
 ### Docker
 
-See [docker instruction](https://github.com/redds-be/redd-go-template/tree/main/docker).
+See [docker instruction](docker/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
