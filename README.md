@@ -54,7 +54,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About reddlinks
+## About redd-go-template
 
 A template for my go projects. It contains everything I need to start a new Go project.
 
