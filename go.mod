@@ -3,7 +3,7 @@ module github.com/redds-be/redd-go-template
 go 1.21
 
 require (
-	github.com/mattn/go-sqlite3 v1.14.29
+	github.com/mattn/go-sqlite3 v1.14.30
 	github.com/stretchr/testify v1.10.0
 )
 
