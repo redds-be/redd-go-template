@@ -108,7 +108,7 @@ I don't expect anyone other than me to contribute, but you should follow these s
 **Fork -> Patch -> Push -> Pull Request**
 
 The **Go** code is linted with [`golangci-lint`](https://golangci-lint.run) and
-formatted with [`golines`](https://github.com/segmentio/golines) (width 120) and
+formatted with [`golines`](https://github.com/golangci/golines/) (width 120) and
 [`gofumpt`](https://github.com/mvdan/gofumpt). See the Makefile targets.
 If there are false positives, feel free to use the
 [`//nolint:`](https://golangci-lint.run/usage/false-positives/#nolint-directive) directive
