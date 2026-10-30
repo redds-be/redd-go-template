@@ -1,5 +1,5 @@
 //    redd-go-template, a template for go projects.
-//    Copyright (C) 2024 redd
+//    Copyright (C) 2026 redd
 //
 //    This program is free software: you can redistribute it and/or modify
 //    it under the terms of the GNU General Public License as published by
